@@ -1,0 +1,12 @@
+NumPy (numpy): 
+
+​Essential for performing the Log-Normal mathematics required for the d_1 and d_2 calculations (e.g., np.log, np.sqrt, and np.exp).
+
+​Handles the efficient numerical arrays used throughout the simulation.
+
+​SciPy (scipy): 
+
+​Specifically uses the scipy.stats.norm module.
+
+​This provides the Cumulative Distribution Function (CDF) needed to calculate N(d_1) and N(d_2), which represents the probability factors in the Black-Scholes formula.
+
