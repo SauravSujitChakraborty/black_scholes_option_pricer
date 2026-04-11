@@ -31,6 +31,7 @@ $$ d_1 = \frac{\ln(S/K) + (r + \frac{\sigma^2}{2})T}{\sigma \sqrt{T}} $$
 $$ d_2 = d_1 - \sigma \sqrt{T} $$
 
 $d_1$ (Moneyness): Measures how far the option is "in-the-money" relative to the standard deviation of the stock’s returns.
+
 $d_2$ (Exercise Probability): Represents the risk-adjusted probability that the option will be exercised at expiration (T).
 
 Computational Logic
