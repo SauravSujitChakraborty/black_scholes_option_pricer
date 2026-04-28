@@ -1,6 +1,6 @@
 # black_scholes_option_pricer 
 
-NOTE :- Tis project was made by me in Mar'25, subsequently preserved and published on Apr11'26.
+NOTE :- This project was made by me in Mar'25, subsequently preserved and published on Apr11'26.
 
 THEORY :-
 
@@ -58,25 +58,30 @@ where the components are:
 
  6. Results & Analysis
  
- ==> According to the output generated:
+==> According to the output generated:
 
-=> Theoretical Call Value: $12.14
+ => Theoretical Call Value: $12.14
 
 7. Interpretation:
 
-Even though the stock price ($150) is currently lower than the strike price ($155), the option still has a value of $12.14. This is due to Time Value and Volatility—there is a statistical chance that the stock will climb above $155 within the next 6 months.
+==> Even though the stock price ($150) is currently lower than the strike price ($155), the option still has a value of $12.14. This is due to Time Value and     Volatility—there is a statistical chance that the stock will climb above $155 within the next 6 months.
 
 8. Core Packages :-
 
 ==> NumPy: Used for vectorized logarithmic and exponential calculations (computing $d_1$, $d_2$, and the continuous discounting factor $e^{-rT}$).
+
 ==> SciPy (`scipy.stats`): Utilized for the Cumulative Distribution Function (CDF) of the standard normal distribution, essential for calculating the delta-adjusted probabilities. 
 
 9. Installation :-
 
 ==> Cloning the repository :-
 
+```bash
 git clone https://github.com/SauravSujitChakraborty/black_scholes_option_pricer.git
+```
 
 ==> Installing the dependencies :-
 
+```bash
 pip install -r requirements.txt
+```
