@@ -1,4 +1,4 @@
-# black_scholes_option_pricer 
+ # black_scholes_option_pricer 
 
 NOTE :- This project was made by me in Mar'25, subsequently preserved and published on Apr11'26.
 
@@ -61,6 +61,7 @@ Where the components d_1 and d_2 are defined as:
 ​Visual Analysis
 
 ==> ​The generated plot illustrates the Option Value Sensitivity (frequently referred to as the option's "intrinsic + time value" curve).
+![Sensitivity Graph](./graph_output_black-scholes_opt_pric.png)
 
 ==> ​Key Observations from the Graph:
 
