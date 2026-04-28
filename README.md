@@ -66,11 +66,11 @@ Where the components d_1 and d_2 are defined as:
 
  => ​Convexity (Gamma): Notice the curve is not a straight line. As the stock price S approaches the strike price $$K$$ (the red dashed line), the rate of change in the option price increases. This "curvature" represents Gamma.
  
- => ​In-the-Money (ITM): To the right of the red line ($$ S>$155 $$), the option gains "Intrinsic Value." The curve begins to look more linear as it approaches a Delta of 1.0.
+ => ​In-the-Money (ITM): To the right of the red line (**S>$155**), the option gains "Intrinsic Value." The curve begins to look more linear as it approaches a Delta of 1.0.
  
- => ​Out-of-the-Money (OTM): To the left of the red line ($$ S<$155 $$), the option has no intrinsic value. Its price is composed entirely of "Extrinsic (Time) Value," which decays toward zero as the stock price falls further away from the strike.
+ => ​Out-of-the-Money (OTM): To the left of the red line (**S<$155**), the option has no intrinsic value. Its price is composed entirely of "Extrinsic (Time) Value," which decays toward zero as the stock price falls further away from the strike.
  
- => ​At-the-Money (ATM): At exactly $$S=$155$$, the option's value is purely functional of volatility and time
+ => ​At-the-Money (ATM): At exactly **S=$155**, the option's value is purely functional of volatility and time
 
 Results
 
@@ -88,7 +88,7 @@ Results
 
 ==> Metric Value Interpretation
 
- => $$Call Option Price = $12.14$$ :- The fair theoretical value today.
+ => Call Option Price = **$12.14** :- The fair theoretical value today.
 
  => $$Delta (N(d_1)) = 0.528$$ :- For every $1 move in the stock, the option moves ~$0.53.
 
