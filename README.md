@@ -54,7 +54,7 @@ Where the components d_1 and d_2 are defined as:
 
 ==> ​The Visualization Layer: 
 
- => Generates a range of stock prices using np.linspace.
+ => Generates a range of stock prices using $$np.linspace$$.
  
  => ​Iteratively maps the pricing function across that range to create a sensitivity curve.
 
