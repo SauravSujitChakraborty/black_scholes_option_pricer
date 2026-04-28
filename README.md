@@ -65,3 +65,11 @@ Theoretical Call Value: $12.14
 Interpretation:
 
 Even though the stock price ($150) is currently lower than the strike price ($155), the option still has a value of $12.14. This is due to Time Value and Volatility—there is a statistical chance that the stock will climb above $155 within the next 6 months.
+
+Installation :-
+
+Cloning the repository :-
+
+git clone https://github.com/SauravSujitChakraborty/black_scholes_option_pricer.git
+
+Installing the dependencies :-
