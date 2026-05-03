@@ -110,14 +110,28 @@ Results
 ==> Cloning the repository :-
 
 ```bash
-git clone https://github.com/SauravSujitChakraborty/black_scholes_option_pricer.git
+git clone https://github.com/SauravSujitChakraborty/black_scholes_option_pricer.git && cd black_scholes_option_pricer
 ```
+==> Create and activate environment
 
+```bash
+python -m venv venv
+# On macOS/Linux:
+source venv/bin/activate  
+# On Windows:
+venv\Scripts\activate
+```
 ==> Installing the dependencies :-
 
 ```bash
 pip install -r requirements.txt
 ```
+==> Running the Black Scholes Option Pricer:
+
+```bash
+python ‎black-scholes_option_pricing.py‎
+```
+
 
 
  
